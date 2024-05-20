@@ -50,3 +50,10 @@
 body {
   @apply mx-auto w-10/12 font-satoshi;
 }
+
+.blog h3{
+  @apply font-satoshi-semibold text-2xl py-3
+}
+.blog ol{
+  @apply list-decimal space-y-6
+}
