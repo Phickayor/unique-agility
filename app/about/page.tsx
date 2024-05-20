@@ -9,14 +9,16 @@ import React from "react";
 
 function About() {
   return (
-    <div>
-      <Header />
-      <AboutUs/>
-      <MissionAndVision/>
-      <Values/>
-      <Customers/>
-      <Leadership/>
-      <Footer />
+    <div className="flex flex-col min-h-screen">
+      <Header activeBar={"about"} />
+      <div className="flex-1">
+        <AboutUs />
+        <MissionAndVision />
+        <Values />
+        <Customers />
+        <Leadership />
+      </div>
+      <Footer hideContact={false} />
     </div>
   );
 }

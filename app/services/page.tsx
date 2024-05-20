@@ -10,7 +10,7 @@ function Services() {
       <div className="flex-1">
         <AllServices />
       </div>
-      <Footer />
+      <Footer hideContact={false} />
     </div>
   );
 }

@@ -69,7 +69,7 @@ function ValueProposition() {
           </ul>
         </div>
       </div>
-    </div>
+    </div> 
   );
 }
 

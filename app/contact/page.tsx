@@ -10,7 +10,7 @@ function Contact() {
       <div className="flex-1">
         <ContactForm />
       </div>
-      <Footer />
+      <Footer hideContact={true} />
     </div>
   );
 }

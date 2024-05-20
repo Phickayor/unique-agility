@@ -10,7 +10,7 @@ function Header({ activeBar }: { activeBar: string }) {
         className="self-center"
       />
       <ul className="text-[#8FA0AD] flex gap-5 self-center">
-        <Link href="/home" className={activeBar == "home" ? "text-black" : ""}>
+        <Link href="/" className={activeBar == "home" ? "text-black" : ""}>
           <li>Home</li>
         </Link>
         <Link
