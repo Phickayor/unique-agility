@@ -32,7 +32,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex-1 text-center self-center">
-          <button className="bg-green font-semibold text-white px-8 py-3 rounded-full">
+          <button className="bg-green font-semibold text-white px-8 py-3 text-lg rounded-full">
             Contact us
           </button>
         </div>

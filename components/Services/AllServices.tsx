@@ -15,7 +15,7 @@ function AllServices() {
 
       <div>
         {services.map((service, index) => (
-          <div className="relative my-10">
+          <div className="relative my-10" key={index}>
             <img
               src={service.image}
               className="absolute -z-10 w-full h-full object-cover"

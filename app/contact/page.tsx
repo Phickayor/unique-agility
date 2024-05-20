@@ -5,9 +5,11 @@ import React from "react";
 
 function Contact() {
   return (
-    <div>
-      <Header />
-      <ContactForm />
+    <div className="flex flex-col min-h-screen">
+      <Header activeBar={"contact"} />
+      <div className="flex-1">
+        <ContactForm />
+      </div>
       <Footer />
     </div>
   );
