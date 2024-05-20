@@ -13,16 +13,25 @@ function Header({ activeBar }: { activeBar: string }) {
         <Link href="/home" className={activeBar == "home" ? "text-black" : ""}>
           <li>Home</li>
         </Link>
-        <Link href="/about">
+        <Link
+          href="/about"
+          className={activeBar == "about" ? "text-black" : ""}
+        >
           <li>About Us</li>
         </Link>
-        <Link href="/services">
+        <Link
+          href="/services"
+          className={activeBar == "services" ? "text-black" : ""}
+        >
           <li>Services</li>
         </Link>
-        <Link href="/contact">
+        <Link
+          href="/contact"
+          className={activeBar == "contact" ? "text-black" : ""}
+        >
           <li>Contact us</li>
         </Link>
-        <Link href="/home">
+        <Link href="/blog" className={activeBar == "blog" ? "text-black" : ""}>
           <li>Blog</li>
         </Link>
       </ul>

@@ -5,9 +5,11 @@ import React from "react";
 
 function Services() {
   return (
-    <div>
-      <Header />
-      <AllServices />
+    <div className="flex flex-col min-h-screen">
+      <Header activeBar={"services"} />
+      <div className="flex-1">
+        <AllServices />
+      </div>
       <Footer />
     </div>
   );

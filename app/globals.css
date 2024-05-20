@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "Satoshi-Light";
+  src: url("/fonts/Satoshi/Satoshi-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}@font-face {
   font-family: "Satoshi";
   src: url("/fonts/Satoshi/Satoshi-Regular.otf") format("opentype");
   font-weight: normal;
@@ -27,6 +32,9 @@
   font-style: normal;
 }
 
+.font-satoshi-light {
+  font-family: "Satoshi-Light", sans-serif;
+}
 .font-satoshi {
   font-family: "Satoshi", sans-serif;
 }
