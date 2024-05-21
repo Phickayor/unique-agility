@@ -15,25 +15,25 @@ function Articles() {
         />
         <div className="absolute inset-0 bg-green opacity-80 rounded-2xl "></div>
 
-        <div className="relative px-10 py-8 text-left space-y-3 ">
-          <h1 className="text-white text-3xl xl:text-4xl font-satoshi-semibold">
+        <div className="relative px-10 py-5 md:py-8 text-left space-y-3 ">
+          <h1 className="text-white text-2xl lg:text-3xl xl:text-4xl font-satoshi-semibold">
             Our Blog
           </h1>
         </div>
       </div>
-      <div className="py-24 flex flex-col gap-5">
+      <div className="py-10 lg:py-24 flex flex-col gap-5">
         {articles.map((article, index) => (
           <div key={index}>
             <img src={article.cover} className="h-52 w-full object-cover" />
             <div className="py-4 flex flex-col gap-3">
-              <h1 className="text-3xl font-satoshi-semibold">
+              <h1 className="text-2xl lg:text-3xl font-satoshi-semibold">
                 {article.title}
                 <br />
                 {article.subtitle}
               </h1>
               <Link
                 href={"/blog/" + article.slug}
-                className="text-2xl underline font-satoshi-medium"
+                className="text-lg lg:text-2xl border-b-2 w-fit hover:border-green hover:py-1 font-satoshi-medium"
               >
                 View Post
               </Link>

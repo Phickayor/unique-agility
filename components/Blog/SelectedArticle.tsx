@@ -26,7 +26,7 @@ function SelectedArticle({ slug }: { slug: string }) {
       <div>
         <img src={selected?.cover} className="h-52 w-full object-cover" />
         <div className="py-4 flex flex-col gap-3">
-          <h1 className="text-3xl font-satoshi-semibold">
+          <h1 className="text-2xl md:text-3xl font-satoshi-semibold">
             {selected?.title}
             <br />
             {selected?.subtitle}
