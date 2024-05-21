@@ -65,8 +65,7 @@ function ValueProposition() {
             <li>Customer Support Commitment</li>
             <li>Uncompromising Integrity</li>
           </ul>
-          {/* <ul className="text-white flex flex-wrap [&>*]:self-center text-[10px] md:text-lg xl:text-xl list-disc gap-6 lg:space-y-4 self-center"></ul> */}
-        </div>
+       </div>
       </div>
     </div>
   );

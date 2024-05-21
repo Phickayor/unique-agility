@@ -8,7 +8,7 @@ function Header({ activeBar }: { activeBar: string }) {
       <img
         src="/images/logo.png"
         alt="Unique Agility LLC"
-        className="self-center"
+        className="self-center w-2/5 lg:w-fit"
       />
       <ul className="hidden text-[#8FA0AD] lg:flex gap-5 self-center">
         <Link href="/" className={activeBar == "home" ? "text-black" : ""}>
@@ -39,7 +39,7 @@ function Header({ activeBar }: { activeBar: string }) {
       <button className="hidden lg:block border-2 rounded-3xl h-fit px-4 py-2 self-center">
         Let's Talk
       </button>
-      <FaBars className="lg:hidden text-2xl font-semibold cursor-pointer self-center"/>
+      <FaBars className="lg:hidden text-2xl font-semibold cursor-pointer self-center" />
     </div>
   );
 }

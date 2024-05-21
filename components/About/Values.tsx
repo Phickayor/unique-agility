@@ -2,18 +2,18 @@ import React from "react";
 
 function Values() {
   return (
-    <div className="py-20">
+    <div className="py-10 xl:py-20">
       <h2 className="text-3xl xl:text-4xl text-center font-satoshi-semibold">
         Our Core Values
       </h2>
-      <ul className="grid grid-cols-3 gap-5 py-10 [&>*]:bg-green text-white text-2xl [&>*]:px-10 [&>*]:py-6 [&>*]:rounded-xl [&>*]:self-center text-center">
+      <ul className="grid grid-cols-3 gap-5 py-10  [&>*]:bg-green text-white sm:text-xl lg:text-2xl md:[&>*]:py-6 [&>*]:py-4 [&>*]:rounded-xl [&>*]:self-center text-center">
         <li>Innovation</li>
         <li>Collaboration</li>
         <li>Integrity</li>
-        <li>Diversify and Inclusivity</li>
+        <li>Diversity</li>
+        <li>Inclusivity</li>
         <li>Excellence</li>
       </ul>
-
       <div className="relative ">
         <img
           src="/images/diff.jpeg"
@@ -25,22 +25,19 @@ function Values() {
         />
         <div className="absolute inset-0 bg-green opacity-80 rounded-2xl "></div>
 
-        <div className="grid grid-cols-3 gap-x-8 place-content-center relative p-10">
-          <h1 className="text-white mx-auto w-fit text-4xl leading-snug font-satoshi-semibold self-center">
+        <div className="mx-auto w-full px-10 grid lg:grid-cols-3 lg:gap-y-0 gap-4 lg:gap-8 place-content-center relative p-5 md:p-10 text-center xl:text-left">
+          <h1 className="text-white col-span-3 lg:col-span-1 text-center text-[20px] sm:text-3xl lg:text-4xl leading-snug font-satoshi-semibold self-center">
             Our Corporate Objectives
           </h1>
-          <ul className="text-white text-lg xl:text-xl list-disc space-y-4 self-center">
+          <ul className="text-white mx-auto sm:w-11/12 col-span-2 lg:grid grid-cols-2 flex flex-wrap [&>*]:self-center text-[12px] sm:text-sm md:text-lg xl:text-xl list-disc gap-6 self-center">
             <li>Continuously Innovate</li>
             <li>Promote Diversity and Inclusivity</li>
             <li>Maintain 100% Client Satisfaction</li>
             <li>Consult with the Government as Middlemen</li>
-          </ul>
-          <ul className="text-white text-lg xl:text-xl list-disc space-y-4 self-center">
             <li>Foster Strong Partnerships</li>
             <li>Provide Cost-Effective Solutions</li>
             <li>Community and Social Empowerment</li>
           </ul>
-          
         </div>
       </div>
     </div>

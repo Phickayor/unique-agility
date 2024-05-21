@@ -3,7 +3,7 @@ import React from "react";
 function AboutUs() {
   return (
     <div>
-      <div className="relative my-10">
+      <div className="relative lg:my-10">
         <img
           src="/images/about.jpeg"
           className="absolute -z-10 w-full h-full object-cover"
@@ -11,10 +11,10 @@ function AboutUs() {
         <div className="absolute inset-0 bg-green opacity-80 "></div>
 
         <div className="relative py-8 px-5 text-center space-y-5 text-white ">
-          <h1 className="text-3xl xl:text-4xl text-center font-satoshi-semibold">
+          <h1 className="text-2xl md:text-3xl xl:text-4xl text-center font-satoshi-semibold">
             Who we are
           </h1>
-          <p className="leading-relaxed text-xl space-y-5 font-satoshi-light">
+          <p className="lg:leading-relaxed text-sm sm:text-lg lg:text-xl space-y-5 font-satoshi-light">
             At Unique Agility LLC, based in Raleigh, NC, we simplify operational
             complexities for government contractors, non-profits, and
             corporations through innovative business solutions. Our services
