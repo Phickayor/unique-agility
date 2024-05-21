@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { FaBars } from "react-icons/fa6";
 
 function Header({ activeBar }: { activeBar: string }) {
   return (
@@ -9,7 +10,7 @@ function Header({ activeBar }: { activeBar: string }) {
         alt="Unique Agility LLC"
         className="self-center"
       />
-      <ul className="text-[#8FA0AD] flex gap-5 self-center">
+      <ul className="hidden text-[#8FA0AD] lg:flex gap-5 self-center">
         <Link href="/" className={activeBar == "home" ? "text-black" : ""}>
           <li>Home</li>
         </Link>
@@ -35,9 +36,10 @@ function Header({ activeBar }: { activeBar: string }) {
           <li>Blog</li>
         </Link>
       </ul>
-      <button className="border-2 rounded-3xl h-fit px-4 py-2 self-center">
+      <button className="hidden lg:block border-2 rounded-3xl h-fit px-4 py-2 self-center">
         Let's Talk
       </button>
+      <FaBars className="lg:hidden text-2xl font-semibold cursor-pointer self-center"/>
     </div>
   );
 }

@@ -10,9 +10,9 @@ import {
   FaLocationDot
 } from "react-icons/fa6";
 
-function Footer({hideContact }: { hideContact: boolean }) {
+function Footer({ hideContact }: { hideContact: boolean }) {
   return (
-    <div className="py-4">
+    <div className="py-4 ">
       <div className="flex">
         <div>
           <img src="/images/logo.png" />
@@ -32,9 +32,11 @@ function Footer({hideContact }: { hideContact: boolean }) {
           </div>
         </div>
         <div className="flex-1 text-center self-center">
-          {!hideContact&&<button className="bg-green font-semibold text-white px-8 py-3 text-lg rounded-full">
-            Contact us
-          </button>}
+          {!hideContact && (
+            <button className="hidden md:block bg-green font-semibold text-white px-8 py-3 md:text-lg rounded-full">
+              Contact us
+            </button>
+          )}
         </div>
         <div className="self-center">
           <h3 className="text-xl font-satoshi-semibold">Contact</h3>

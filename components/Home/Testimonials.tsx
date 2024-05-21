@@ -4,10 +4,10 @@ import { FaAngleRight } from "react-icons/fa6";
 function Testimonials() {
   return (
     <div className="text-center">
-      <h1 className="text-4xl font-satoshi-bold">Testimonial</h1>
+      <h1 className="text-2xl lg:text-4xl font-satoshi-bold">Testimonial</h1>
       <img src="/images/meet.png" className="mx-auto w-fit self-center " />
-      <div className="flex flex-col gap-4 mx-auto w-9/12">
-        <p className="text-xl leading-loose mx-auto">
+      <div className="flex flex-col gap-4 mx-auto lg:w-9/12">
+        <p className="lg:text-xl leading-2 mx-auto">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro omnis
           autem possimus facilis asperiores rem ullam, dolorem id tenetur
           quaerat, veritatis voluptatum alias deserunt eveniet. Molestias
@@ -35,10 +35,10 @@ function Testimonials() {
         <div className="absolute inset-0 bg-green opacity-80 rounded-2xl "></div>
 
         <div className="relative p-10  text-left space-y-3 ">
-          <h1 className="text-white text-3xl xl:text-4xl font-satoshi-semibold">
+          <h1 className="text-white text-2xl md:text-3xl xl:text-4xl font-satoshi-semibold">
             Work Together with Unique Agility
           </h1>
-          <p className="text-lg text-[#A7ABB6]">
+          <p className="md:text-lg text-[#A7ABB6]">
             We provide strategic technology, human capital, and business
             consulting to Government and Commercial Clients.
           </p>
