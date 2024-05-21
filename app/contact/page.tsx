@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header activeBar={"contact"} />
-      <div className="flex-1">
+      <div className="flex-1 flex flex-col justify-center">
         <ContactForm />
       </div>
       <Footer hideContact={true} />
