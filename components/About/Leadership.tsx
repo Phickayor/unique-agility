@@ -17,24 +17,22 @@ function Leadership() {
         Their expertise and integrity are key to the success of Unique Agility
         LLC.
       </p>
-      <div className="flex gap-3 md:gap-5 w-full  py-2 ">
-        <div className="w-2/5 relative self-center py-5 md:py-10 lg:py-0 lg:self-auto">
+      <div className="flex md:flex-row flex-col  gap-3 md:gap-5 w-full py-2 ">
+        <div className="w-full md:w-2/5 relative self-center py-5 md:py-10 lg:py-0 lg:self-auto">
           <img
             src="/images/ellipse.png"
-            className="absolute z-10 bottom-0 left-0 w-full"
+            className="absolute bottom-0 left-0 w-full z-10 inset-0"
           />
-          <div className="absolute inset-0 bg-green opacity-80 rounded-2xl "></div>
+          <div className="absolute inset-0 bg-green opacity-80 rounded-2xl"></div>
           <div className="h-full w-full relative px-5 flex flex-col justify-center gap-4">
-            <label className="text-[#E4E4E4] text-[8px] sm:text-sm xl:text-base">
-              Our Founder/CEO
-            </label>
-            <h1 className="text-white text-sm sm:text-3xl xl:text-4xl font-satoshi-semibold">
+            <label className="text-white">Our Founder/CEO</label>
+            <h1 className="text-white text-2xl sm:text-3xl xl:text-4xl font-satoshi-semibold">
               Onyinye Nwegbe
             </h1>
           </div>
         </div>
         <div className="w-full bg-[#F8F8F8] p-5 lg:p-10 rounded-2xl">
-          <p className="text-[10px] sm:text-xl xl:text-2xl text-[#7D818C]">
+          <p className="xl:text-2xl text-[#7D818C]">
             Onyinye Nwegbe, Founder and CEO of Unique Agility LLC, is an expert
             in Agile methodologies with MBAs and certifications like PMP and
             SAFe RTE. He has held senior roles at major companies, excelling in

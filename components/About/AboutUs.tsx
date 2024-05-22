@@ -8,7 +8,7 @@ function AboutUs() {
           src="/images/about.jpeg"
           className="absolute -z-10 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-green opacity-80 "></div>
+        <div className="absolute inset-0 bg-green opacity-90 "></div>
 
         <div className="relative py-8 px-5 text-center space-y-5 text-white ">
           <h1 className="text-2xl md:text-3xl xl:text-4xl text-center font-satoshi-semibold">

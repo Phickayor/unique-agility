@@ -13,7 +13,7 @@ import {
 function Footer({ hideContact }: { hideContact: boolean }) {
   return (
     <div className="py-4 ">
-      <div className="grid grid-cols-3 lg:grid-cols-4 gap-2">
+      <div className="flex justify-between md:grid grid-cols-3 lg:grid-cols-4 gap-2">
         <div>
           <img src="/images/logo.png" className="w-4/5 lg:w-fit" />
           <ul className="py-5 space-y-3 text-black text-xs md:text-lg lg:text-xl">
@@ -31,7 +31,7 @@ function Footer({ hideContact }: { hideContact: boolean }) {
             <FaTwitter />
           </div>
         </div>
-        <div className="text-center self-center lg:col-span-2">
+        <div className="hidden md:block text-center self-center lg:col-span-2">
           {!hideContact && (
             <button className="px-6 py-2 rounded-full bg-green text-xs md:text-lg shadow-xl text-white">
               Contact us
