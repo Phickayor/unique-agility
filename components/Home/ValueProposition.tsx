@@ -52,20 +52,20 @@ function ValueProposition() {
         />
         <div className="absolute inset-0 bg-green opacity-80 rounded-2xl "></div>
 
-        <div className="mx-auto  px-10 grid lg:grid-cols-3 lg:gap-y-0 gap-4 lg:gap-8 place-content-center relative p-5 md:p-10 text-center xl:text-left">
-          <h1 className="text-white mx-auto w-fit text-[20px] sm:text-3xl lg:text-4xl leading-snug font-satoshi-semibold self-center">
+        <div className=" p-5 md:p-10 grid lg:grid-cols-3 lg:gap-y-0 gap-4 lg:gap-8 place-content-center relative text-center xl:text-left">
+          <h1 className="text-white col-span-3 lg:col-span-1 mx-auto w-fit text-[20px] sm:text-3xl lg:text-4xl leading-snug font-satoshi-semibold self-center">
             What differentiates us ?
           </h1>
-          <ul className="text-white mx-auto sm:w-11/12 col-span-2 lg:grid grid-cols-2 flex flex-wrap [&>*]:self-center text-[12px] sm:text-sm md:text-lg xl:text-xl list-disc gap-6 self-center">
+          <ul className="text-white col-span-2 lg:grid grid-cols-2 flex flex-wrap [&>*]:self-center text-[12px] sm:text-sm md:text-lg xl:text-xl list-disc gap-y-5 gap-x-8 self-center">
             <li>Accountabilty in All Endeavors</li>
-            <li>Cost-Effective and Customized Solutions</li>
             <li>Value Added Services</li>
             <li>Government procurement Expertise</li>
             <li>100% Client Satisfaction</li>
             <li>Customer Support Commitment</li>
             <li>Uncompromising Integrity</li>
+            <li>Cost-Effective and Customized Solutions</li>
           </ul>
-       </div>
+        </div>
       </div>
     </div>
   );

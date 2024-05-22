@@ -34,7 +34,7 @@ function Testimonials() {
         />
         <div className="absolute inset-0 bg-green opacity-80 rounded-2xl "></div>
 
-        <div className="relative p-10  text-left space-y-3 ">
+        <div className="relative p-5 md:p-10  text-left space-y-3 ">
           <h1 className="text-white text-2xl md:text-3xl xl:text-4xl font-satoshi-semibold">
             Work Together with Unique Agility
           </h1>
