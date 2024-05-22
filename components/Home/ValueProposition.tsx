@@ -31,8 +31,8 @@ function ValueProposition() {
             </h1>
           </div>
         </div>
-        <div className="w-full bg-[#F8F8F8] p-5 sm:p-10 rounded-2xl">
-          <p className="text-[10px] sm:text-xl xl:text-2xl text-[#7D818C]">
+        <div className="w-full bg-[#F8F8F8] p-5 lg:p-10 rounded-2xl">
+          <p className="text-[10px] sm:text-lg xl:text-2xl text-[#7D818C]">
             We offer a unique blend of expertise and adaptability, delivering
             tailored business solutions that simplify operational complexities.
             Our commitment to innovation, client satisfaction, and unwavering
