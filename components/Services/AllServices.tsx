@@ -26,7 +26,7 @@ function AllServices() {
               <h1 className="text-white  text-2xl md:text-3xl xl:text-4xl text-center font-satoshi-semibold">
                 {service.name}
               </h1>
-              <ul className="list-disc  text-sm sm:text-xl space-y-5 font-satoshi-light text-[#A7ABB6]">
+              <ul className="list-disc  text-sm sm:text-xl space-y-5 font-satoshi-light text-white">
                 {service.description.map((desc, index) => (
                   <li key={index}> {desc}</li>
                 ))}

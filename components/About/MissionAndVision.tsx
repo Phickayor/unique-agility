@@ -5,7 +5,7 @@ function MissionAndVision() {
     <div className="flex flex-col overflow-x-hidden">
       <div className="flex justify-between py-10">
         <div className="flex flex-col gap-4 w-fit">
-          <h2 className="text-3xl xl:text-4xl font-satoshi-semibold">
+          <h2 className="text-2xl md:text-3xl xl:text-4xl font-satoshi-semibold">
             Our Mission
           </h2>
           <p className="font-satoshi-light text-sm sm:text-lg lg:text-2xl text-[#516371]">
@@ -27,7 +27,7 @@ function MissionAndVision() {
       </div>
       <div className="flex justify-between py-5">
         <div className="flex flex-col gap-4">
-          <h2 className="text-3xl xl:text-4xl font-satoshi-semibold">
+          <h2 className="text-2xl md:text-3xl xl:text-4xl font-satoshi-semibold">
             Our Vision
           </h2>
           <p className="font-satoshi-light text-sm sm:text-lg lg:text-2xl text-[#516371]">

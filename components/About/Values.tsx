@@ -3,10 +3,10 @@ import React from "react";
 function Values() {
   return (
     <div className="py-10 xl:py-20">
-      <h2 className="text-3xl xl:text-4xl text-center font-satoshi-semibold">
+      <h2 className="text-2xl md:text-3xl xl:text-4xl text-center font-satoshi-semibold">
         Our Core Values
       </h2>
-      <ul className="grid grid-cols-3 gap-5 py-10  [&>*]:bg-green text-white sm:text-xl lg:text-2xl md:[&>*]:py-6 [&>*]:py-4 [&>*]:rounded-xl [&>*]:self-center text-center">
+      <ul className="grid grid-cols-3 gap-2.5 md:gap-5 py-10  [&>*]:bg-green text-white sm:text-xl lg:text-2xl md:[&>*]:py-6 [&>*]:py-4 [&>*]:rounded-xl [&>*]:self-center text-center">
         <li>Innovation</li>
         <li>Collaboration</li>
         <li>Integrity</li>
