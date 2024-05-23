@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Who we are",
+    "link": "/about"
+  },
+  {
+    "name": "Our Mission",
+    "link": "/about/#mission"
+  },
+  {
+    "name": "Our Vision",
+    "link": "/about/#vision"
+  },
+  {
+    "name": "Our Core Values",
+    "link": "/about/#values"
+  },
+  {
+    "name": "Our Corporate Objectives",
+    "link": "/about/#corporate"
+  },
+  {
+    "name": "Who we serve",
+    "link": "/about/#customers"
+  },
+  {
+    "name": "Our Leadership",
+    "link": "/about/#leadership"
+  }
+]

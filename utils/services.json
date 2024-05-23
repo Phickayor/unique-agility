@@ -2,6 +2,7 @@
   {
     "name": "Business Strategy and Planning/Support",
     "image": "/images/service-1.jpeg",
+    "link": "/services/#1",
     "description": [
       "Strategic Guidance: We offer insightful strategies to enhance overall business performance.",
       "Planning Support: We work collaboratively with clients to develop and execute effective business plans."
@@ -10,6 +11,7 @@
   {
     "name": "Ad-Hoc Technical Support",
     "image": "/images/service-2.jpeg",
+    "link": "/services/#2",
     "description": [
       "Rapid Response: We provide timely and effective technical support for unforeseen challenges.",
       "Troubleshooting Expertise: We proactively resolve technical issues with precision and efficiency."
@@ -18,6 +20,7 @@
   {
     "name": "Staff and End User Training",
     "image": "/images/test.jpeg",
+    "link": "/services/#3",
     "description": [
       "Customized Training Programs: We develop and deliver tailored training solutions for staff and end users.",
       "Skill Enhancement: We empower teams with the latest skills and knowledge to drive productivity."
@@ -26,6 +29,7 @@
   {
     "name": "Workforce Planning",
     "image": "/images/service-4.jpeg",
+    "link": "/services/#4",
     "description": [
       "Strategic Workforce Planning: We support organizations in optimizing their workforce for enhanced efficiency.",
       "Talent Alignment: WE help in aligning workforce capabilities with organizational goals."
@@ -34,6 +38,7 @@
   {
     "name": "Upstream and Downstream Coaching",
     "image": "/images/service-5.jpeg",
+    "link": "/services/#5",
     "description": [
       "Leadership Coaching: We provide coaching services for leadership development and growth.",
       "Staff Development: We coach and support downstream teams for improved performance and career advancement."
@@ -42,6 +47,7 @@
   {
     "name": "HRIS Implementation and Assessment",
     "image": "/images/service-6.jpeg",
+    "link": "/services/#6",
     "description": [
       "Technology Integration: We lead the implementation of Human Resource Information Systems (HRIS) for streamlined HR processes.",
       "Performance Assessment: We evaluate and enhance HR systems to ensure organizational effectiveness."
@@ -50,6 +56,7 @@
   {
     "name": "Talent Performance Evaluation",
     "image": "/images/service-7.jpeg",
+    "link": "/services/#7",
     "description": [
       "Performance Metrics: We develop and implement systems for evaluating individual and team performance.",
       "Continuous Improvement: We provide insights for ongoing improvement in talent performance."
@@ -58,6 +65,7 @@
   {
     "name": "Information Technology",
     "image": "/images/service-8.jpeg",
+    "link": "/services/#8",
     "description": [
       "Comprehensive IT Services: We offer a full spectrum of IT services, including consulting, design, and development.",
       "Technology Solutions: We craft innovative technology solutions to address specific business challenges."
@@ -66,6 +74,7 @@
   {
     "name": "Lean Agile Management",
     "image": "/images/service-9.jpeg",
+    "link": "/services/#9",
     "description": [
       "Agile Methodologies: We lead the implementation of agile management practices for efficient project management.",
       "Lean Principles: We apply lean principles to optimize processes and eliminate waste."
@@ -74,6 +83,7 @@
   {
     "name": "Business Management Solutions",
     "image": "/images/service-10.jpeg",
+    "link": "/services/#10",
     "description": [
       "Holistic Solutions: We provide end-to-end business management solutions for operational excellence.",
       "Customized Approaches: We deliver tailored management solutions to the unique requirements of each client."

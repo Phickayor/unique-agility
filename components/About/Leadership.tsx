@@ -2,11 +2,11 @@ import React from "react";
 
 function Leadership() {
   return (
-    <div className="text-center py-10">
+    <div className="text-center py-10" id="leadership">
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-satoshi-semibold ">
         Our Leadership
       </h1>
-      <p className="mx-auto md:w-10/12 py-4 md:leading-loose md:text-lg text-[#516371]  ">
+      <p className="mx-auto md:w-10/12 py-4 md:leading-loose md:text-lg text-[#516371] ">
         Our leadership team at Unique Agility LLC, comprised of seasoned
         professionals, excels in innovation, client satisfaction, and
         operational excellence. They guide the company with strategic thinking,
@@ -17,11 +17,11 @@ function Leadership() {
         Their expertise and integrity are key to the success of Unique Agility
         LLC.
       </p>
-      <div className="flex md:flex-row flex-col  gap-3 md:gap-5 w-full py-2 ">
+      <div className="flex md:flex-row flex-col gap-3 md:gap-5 w-full py-2">
         <div className="w-full md:w-2/5 relative self-center py-5 md:py-10 lg:py-0 lg:self-auto">
           <img
             src="/images/ellipse.png"
-            className="absolute bottom-0 left-0 w-full z-10 inset-0"
+            className="absolute bottom-0 left-0 w-full z-10 inset-0 lg:inset-full "
           />
           <div className="absolute inset-0 bg-green opacity-80 rounded-2xl"></div>
           <div className="h-full w-full relative px-5 flex flex-col justify-center gap-4">

@@ -3,7 +3,7 @@ import React from "react";
 function MissionAndVision() {
   return (
     <div className="flex flex-col overflow-x-hidden">
-      <div className="flex justify-between py-10">
+      <div id="mission" className="flex justify-between py-10">
         <div className="flex flex-col gap-4 md:w-fit">
           <h2 className="text-2xl md:text-3xl xl:text-4xl font-satoshi-semibold">
             Our Mission
@@ -25,7 +25,7 @@ function MissionAndVision() {
           />
         </div>
       </div>
-      <div className="flex justify-between py-5">
+      <div id="vision" className="flex justify-between py-5">
         <div className="flex flex-col gap-4 md:w-fit">
           <h2 className="text-2xl md:text-3xl xl:text-4xl font-satoshi-semibold">
             Our Vision
@@ -41,7 +41,6 @@ function MissionAndVision() {
             className="z-20 top-0 rounded-full w-16 sm:w-32 lg:w-52 h-16 sm:h-32 lg:h-52"
           />
           <img
-
             src="/images/mission-2.jpeg"
             className="rounded-full w-16 sm:w-32 lg:w-52 h-16 sm:h-32 lg:h-52"
           />

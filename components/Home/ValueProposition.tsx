@@ -11,11 +11,11 @@ function ValueProposition() {
         src="/images/ellipse.png"
         className="absolute -z-10 top-8 left-0 w-full"
       />
-      <div className="flex gap-3 sm:gap-5 w-full py-10 sm:py-20 ">
-        <div className="xl:w-2/5 relative">
+      <div className="flex md:flex-row flex-col gap-3 md:gap-5 w-full py-10">
+        <div className="w-full md:w-2/5 relative self-center py-5 md:py-10 lg:py-0 lg:self-auto">
           <img
             src="/images/vp.jpeg"
-            className="absolute -z-10 rounded-2xl h-full object-cover"
+            className="absolute top-0 -z-10 rounded-2xl h-full w-full object-cover"
           />
           <img
             src="/images/ellipse.png"
@@ -23,16 +23,14 @@ function ValueProposition() {
           />
           <div className="absolute inset-0 bg-green opacity-80 rounded-2xl "></div>
           <div className="h-full w-full relative px-5 flex flex-col justify-center gap-4">
-            <label className="text-[#E4E4E4] text-[8px] sm:text-sm xl:text-base">
-              Let's be Agile Together
-            </label>
-            <h1 className="text-white text-sm sm:text-3xl xl:text-4xl font-satoshi-semibold">
+            <label className="text-white">Let's be Agile Together</label>
+            <h1 className="text-white text-2xl sm:text-3xl xl:text-4xl font-satoshi-semibold">
               Our Value Proposition
             </h1>
           </div>
         </div>
         <div className="w-full bg-[#F8F8F8] p-5 lg:p-10 rounded-2xl">
-          <p className="text-[10px] sm:text-lg xl:text-2xl text-[#7D818C]">
+          <p className="xl:text-2xl text-[#7D818C]">
             We offer a unique blend of expertise and adaptability, delivering
             tailored business solutions that simplify operational complexities.
             Our commitment to innovation, client satisfaction, and unwavering
@@ -52,17 +50,17 @@ function ValueProposition() {
         />
         <div className="absolute inset-0 bg-green opacity-80 rounded-2xl "></div>
 
-        <div className=" p-5 md:p-10 grid lg:grid-cols-3 lg:gap-y-0 gap-4 lg:gap-8 place-content-center relative text-center xl:text-left">
-          <h1 className="text-white col-span-3 lg:col-span-1 mx-auto w-fit text-[20px] sm:text-3xl lg:text-4xl leading-snug font-satoshi-semibold self-center">
+        <div className=" p-5 md:p-10 grid lg:grid-cols-3 lg:gap-y-0 gap-4 lg:gap-8 place-content-center relative">
+          <h1 className="text-white col-span-3 lg:col-span-1 text-center text-[20px] sm:text-3xl lg:text-4xl leading-snug font-satoshi-semibold self-center">
             What differentiates us ?
           </h1>
-          <ul className="text-white col-span-2 lg:grid grid-cols-2 flex flex-wrap [&>*]:self-center text-[12px] sm:text-sm md:text-lg xl:text-xl list-disc gap-y-5 gap-x-8 self-center">
+          <ul className="text-white col-span-2 grid grid-cols-2 [&>*]:self-center sm:text-sm md:text-lg xl:text-xl list-disc gap-y-5 gap-x-8 self-center mx-auto w-11/12">
             <li>Accountabilty in All Endeavors</li>
             <li>Value Added Services</li>
-            <li>Government procurement Expertise</li>
             <li>100% Client Satisfaction</li>
             <li>Customer Support Commitment</li>
             <li>Uncompromising Integrity</li>
+            <li>Government procurement Expertise</li>
             <li>Cost-Effective and Customized Solutions</li>
           </ul>
         </div>
