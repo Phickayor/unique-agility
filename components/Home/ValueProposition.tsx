@@ -54,7 +54,7 @@ function ValueProposition() {
           <h1 className="text-white col-span-3 lg:col-span-1 text-center text-[20px] sm:text-3xl lg:text-4xl leading-snug font-satoshi-semibold self-center">
             What differentiates us ?
           </h1>
-          <ul className="text-white col-span-2 grid grid-cols-2 [&>*]:self-center sm:text-sm md:text-lg xl:text-xl list-disc gap-y-5 gap-x-8 self-center mx-auto w-11/12">
+          <ul className="text-white col-span-2 grid grid-cols-2 text-xs md:text-lg xl:text-xl list-disc gap-y-5 gap-x-8 self-center mx-auto w-11/12">
             <li>Accountabilty in All Endeavors</li>
             <li>Value Added Services</li>
             <li>100% Client Satisfaction</li>

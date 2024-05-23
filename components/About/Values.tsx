@@ -32,7 +32,7 @@ function Values() {
           <h1 className="text-white col-span-3 lg:col-span-1 text-center text-[20px] sm:text-3xl lg:text-4xl leading-snug font-satoshi-semibold self-center">
             Our Corporate Objectives
           </h1>
-          <ul className="text-white col-span-2 grid grid-cols-2 [&>*]:self-center text-[12px] sm:text-sm md:text-lg xl:text-xl list-disc gap-6 self-center">
+          <ul className="text-white col-span-2 grid grid-cols-2 text-xs md:text-lg xl:text-xl list-disc gap-6 self-center">
             <li>Continuously Innovate</li>
             <li>Promote Diversity and Inclusivity</li>
             <li>Maintain 100% Client Satisfaction</li>
