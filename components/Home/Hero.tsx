@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <div className="flex md:gap-5 py-10 xl:py-20">
-      <div className="flex flex-col gap-2 h-fit w-1/2 md:w-full self-center">
+      <div className="flex flex-col gap-2 h-fit w-1/2 md:w-fit self-center">
         <img src="/images/right-arrow.png" className="scale-50 sm:scale-75" />
         <img
           src="/images/left-frame.png"
@@ -24,7 +24,7 @@ function Hero() {
         </button>
       </div>
 
-      <div className="flex flex-col gap-2 self-center w-1/2 md:w-full h-fit">
+      <div className="flex flex-col gap-2 self-center w-1/2 md:w-fit h-fit">
         <img src="/images/left-arrow.png" className="scale-50 sm:scale-75" />
         <img
           src="/images/right-frame.png"

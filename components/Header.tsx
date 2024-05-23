@@ -26,28 +26,22 @@ function Header({ activeBar }: { activeBar: string }) {
           <Link href="/" className={activeBar == "home" ? "text-black" : ""}>
             <li>Home</li>
           </Link>
-          <Link
-            href="/about"
-            className={activeBar == "about" ? "text-black" : ""}
-          >
+          <div className={activeBar == "about" ? "text-black" : ""}>
             <li className="group">
-              <span>About Us</span>
+              <Link href="/about">About Us</Link>
               <div className="z-20 text-black hidden group-hover:block">
                 <FurtherNav info="about" />
               </div>
             </li>
-          </Link>
-          <Link
-            href="/services"
-            className={activeBar == "services" ? "text-black" : ""}
-          >
+          </div>
+          <div className={activeBar == "services" ? "text-black" : ""}>
             <li className="group">
-              <span>Services</span>
+              <Link href="/services">Services</Link>
               <div className="z-20 text-black hidden group-hover:block">
                 <FurtherNav info="services" />
               </div>
             </li>
-          </Link>
+          </div>
           <Link
             href="/contact"
             className={activeBar == "contact" ? "text-black" : ""}
@@ -107,7 +101,7 @@ function Header({ activeBar }: { activeBar: string }) {
                     <li onClick={(e) => handleRouting("/about/#values")}>
                       Our Core Values
                     </li>
-                    <li onClick={(e) => handleRouting("/about/#objectives")}>
+                    <li onClick={(e) => handleRouting("/about/#corporate")}>
                       Our Corporate Objectives
                     </li>
                     <li onClick={(e) => handleRouting("/about/#customers")}>
@@ -133,34 +127,34 @@ function Header({ activeBar }: { activeBar: string }) {
                 </div>
                 {subPath == "services" && (
                   <ul className="flex flex-col text-base gap-3 py-2 list-disc list-inside hover:[&>*]:text-green [&>*]:cursor-pointer duration-300">
-                    <li onClick={(e) => handleRouting("/services")}>
+                    <li onClick={(e) => handleRouting("/services/#1")}>
                       Business Strategy and Planning/Support
                     </li>
-                    <li onClick={(e) => handleRouting("/services")}>
+                    <li onClick={(e) => handleRouting("/services/#2")}>
                       Ad- Hoc Technical Support
                     </li>
-                    <li onClick={(e) => handleRouting("/services")}>
+                    <li onClick={(e) => handleRouting("/services/#3")}>
                       Staff and End User Training
                     </li>
-                    <li onClick={(e) => handleRouting("/services")}>
+                    <li onClick={(e) => handleRouting("/services/#4")}>
                       Workforce Planning
                     </li>
-                    <li onClick={(e) => handleRouting("/services")}>
+                    <li onClick={(e) => handleRouting("/services/#5")}>
                       Upstream and Downstream Coaching
                     </li>
-                    <li onClick={(e) => handleRouting("/services")}>
+                    <li onClick={(e) => handleRouting("/services/#6")}>
                       HRIS Implementation and Assessment
                     </li>
-                    <li onClick={(e) => handleRouting("/services")}>
+                    <li onClick={(e) => handleRouting("/services/#7")}>
                       Talent Performance Evaluation
                     </li>
-                    <li onClick={(e) => handleRouting("/services")}>
+                    <li onClick={(e) => handleRouting("/services/#8")}>
                       Information Technology
                     </li>
-                    <li onClick={(e) => handleRouting("/services")}>
+                    <li onClick={(e) => handleRouting("/services/#9")}>
                       Business Management Solutions
                     </li>
-                    <li onClick={(e) => handleRouting("/services")}>
+                    <li onClick={(e) => handleRouting("/services/#10")}>
                       Lean Agile Management
                     </li>
                   </ul>
