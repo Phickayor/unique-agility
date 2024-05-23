@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 function Hero() {
   return (
     <div className="flex md:gap-5 py-10 xl:py-20">
@@ -19,9 +19,12 @@ function Hero() {
           We provide strategic technology, human capital, and business
           consulting to Government and Commercial Clients.
         </p>
-        <button className="md:hidden bg-green font-semibold text-white px-8 py-3 text-sm rounded-full">
+        <Link
+          href="/contact"
+          className="md:hidden bg-green font-semibold mx-auto w-fit text-white px-8 py-3 text-sm block rounded-full"
+        >
           Contact us
-        </button>
+        </Link>
       </div>
 
       <div className="flex flex-col gap-2 self-center w-1/2 md:w-fit h-fit">

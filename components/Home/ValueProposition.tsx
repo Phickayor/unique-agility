@@ -9,7 +9,7 @@ function ValueProposition() {
       />
       <img
         src="/images/ellipse.png"
-        className="absolute -z-10 top-8 left-0 w-full"
+        className="absolute -z-10 top-8 left-0 w-full "
       />
       <div className="flex md:flex-row flex-col gap-3 md:gap-5 w-full py-10">
         <div className="w-full md:w-2/5 relative self-center py-5 md:py-10 lg:py-0 lg:self-auto">
@@ -19,7 +19,7 @@ function ValueProposition() {
           />
           <img
             src="/images/ellipse.png"
-            className="absolute -z-10 bottom-0 left-0 w-full"
+            className="absolute -z-10 lg:bottom-0 w-full inset-x-0"
           />
           <div className="absolute inset-0 bg-green opacity-80 rounded-2xl "></div>
           <div className="h-full w-full relative px-5 flex flex-col justify-center gap-4">
