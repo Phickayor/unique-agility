@@ -17,7 +17,7 @@ function Footer({ hideContact }: { hideContact: boolean }) {
       <div className="flex justify-between md:grid grid-cols-3 lg:grid-cols-4 gap-2">
         <div>
           <img src="/images/logo.png" className="w-4/5 lg:w-fit" />
-          <ul className="py-5 space-y-3 text-black text-xs md:text-lg lg:text-xl">
+          <ul className="py-5 space-y-3 [&>*]:block text-black text-xs md:text-lg lg:text-xl">
             <Link href="/about">
               <li>About us</li>
             </Link>
