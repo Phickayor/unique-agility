@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { CiYoutube } from "react-icons/ci";
 import {
@@ -17,11 +18,21 @@ function Footer({ hideContact }: { hideContact: boolean }) {
         <div>
           <img src="/images/logo.png" className="w-4/5 lg:w-fit" />
           <ul className="py-5 space-y-3 text-black text-xs md:text-lg lg:text-xl">
-            <li>About us</li>
-            <li>Services</li>
-            <li>Join us</li>
-            <li>Contact us</li>
-            <li>Our Blog</li>
+            <Link href="/about">
+              <li>About us</li>
+            </Link>
+            <Link href="/services">
+              <li>Services</li>
+            </Link>
+            <Link href="/">
+              <li>Join Us</li>
+            </Link>
+            <Link href="/contact">
+              <li>Contact us</li>
+            </Link>
+            <Link href="/blog">
+              <li>Our Blog</li>
+            </Link>
           </ul>
           <div className="flex gap-2 md:gap-3 text-xs md:text-lg lg:text-xl duration-300 [&>*]:cursor-pointer hover:[&>*]:text-green">
             <FaInstagram />
@@ -35,9 +46,12 @@ function Footer({ hideContact }: { hideContact: boolean }) {
         </div>
         <div className="hidden md:block text-center self-center lg:col-span-2">
           {!hideContact && (
-            <button className="px-6 py-2 rounded-full bg-green text-xs md:text-lg shadow-xl text-white">
+            <Link
+              href="/contact"
+              className="px-6 py-2 rounded-full bg-green text-xs md:text-lg shadow-xl text-white"
+            >
               Contact us
-            </button>
+            </Link>
           )}
         </div>
         <div className="self-center">

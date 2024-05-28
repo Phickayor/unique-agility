@@ -15,21 +15,18 @@ function AboutUs() {
             Who we are
           </h1>
           <p className="lg:leading-relaxed text-sm sm:text-lg lg:text-xl space-y-5 font-satoshi-light">
-            At Unique Agility LLC, based in Raleigh, NC, we simplify operational
-            complexities for government contractors, non-profits, and
-            corporations through innovative business solutions. Our services
-            include project management, business strategies, agile management,
-            technology consulting, human capital services, training support,
-            technical support, database design, and application and web
-            development. We pride ourselves on delivering customized solutions
-            tailored to each client's unique needs, ensuring industry-approved
-            results and exceeding expectations. Our creative approach and
-            dedication to excellence empower us to provide exceptional
-            experiences and make operational work easier for our clients. As a
-            trusted partner, Unique Agility LLC is committed to your
-            organizational success.
+            Unique Agility LLC in Raleigh, NC simplifies operations for
+            contractors, non-profits, and corporations with innovative
+            solutions. Our services include project management, business
+            strategies, agile management, technology consulting, human capital
+            services, training, technical support, database design, and web
+            development. We deliver customized solutions, ensuring
+            industry-approved results and exceeding expectations. Our creative
+            approach and dedication empower exceptional client experiences,
+            making operations easier. As a trusted partner, Unique Agility LLC
+            is committed to your success.
           </p>
-        </div>  
+        </div>
       </div>
     </div>
   );

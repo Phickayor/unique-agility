@@ -19,8 +19,8 @@ function Testimonials() {
           </h5>
           <p>Sr. Director, Brand Marketing</p>
         </div>
-        <div className="p-4 self-center bg-black rounded-full">
-          <FaAngleRight className="text-3xl text-white" />
+        <div className="p-2 lg:p-4 self-center bg-black rounded-full">
+          <FaAngleRight className="text-2xl lg:text-3xl text-white" />
         </div>
       </div>
       <div className="relative my-10">

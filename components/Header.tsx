@@ -8,7 +8,7 @@ import FurtherNav from "./FurtherNav";
 function Header({ activeBar }: { activeBar: string }) {
   const [subPath, setSubPath] = useState("");
   const [sideMenu, setSideMenu] = useState(false);
-  const router = useRouter(); 
+  const router = useRouter();
 
   const handleRouting = (dest: string) => {
     router.push(`${dest}`);
@@ -51,9 +51,12 @@ function Header({ activeBar }: { activeBar: string }) {
           <li>Blog</li>
         </Link>
       </ul>
-      <button className="hidden lg:block border-2 z-30 rounded-3xl h-fit px-4 py-2 self-center">
+      <Link
+        href="/contact"
+        className="hidden lg:block border-2 z-30 rounded-3xl h-fit px-4 py-2 self-center"
+      >
         Let's Talk
-      </button>
+      </Link>
       {sideMenu ? (
         <FaX
           className="lg:hidden text-2xl font-semibold cursor-pointer self-center"
