@@ -50,16 +50,19 @@ function ValueProposition() {
         />
         <div className="absolute inset-0 bg-green opacity-80 rounded-2xl "></div>
 
-        <div className=" p-5 md:p-10 grid lg:grid-cols-3 lg:gap-y-0 gap-4 lg:gap-8 place-content-center relative">
-          <h1 className="text-white col-span-3 lg:col-span-1 text-center text-[20px] sm:text-3xl lg:text-4xl leading-snug font-satoshi-semibold self-center">
+        <div
+          id="corporate"
+          className="mx-auto w-full lg:grid grid-cols-3 lg:gap-y-0 space-y-4 lg:gap-8 relative p-5 md:p-10 "
+        >
+          <h1 className="text-white col-span-3 lg:col-span-1 text-center text-[20px] sm:text-3xl lg:text-4xl lg:leading-snug font-satoshi-semibold self-center ">
             What differentiates us ?
           </h1>
-          <ul className="text-white col-span-2 grid grid-cols-2 text-xs md:text-lg xl:text-xl list-disc gap-y-5 gap-x-8 self-center mx-auto w-11/12">
-            <li>Accountabilty in All Endeavors</li>
+          <ul className="text-white col-span-2 grid grid-cols-2 text-xs gap-4 w-full md:text-lg list-disc md:gap-6 px-2 lg:px-0">
             <li>Value Added Services</li>
             <li>100% Client Satisfaction</li>
-            <li>Customer Support Commitment</li>
             <li>Uncompromising Integrity</li>
+            <li>Customer Support Commitment</li>
+            <li>Accountabilty in All Endeavors</li>
             <li>Government procurement Expertise</li>
             <li>Cost-Effective and Customized Solutions</li>
           </ul>

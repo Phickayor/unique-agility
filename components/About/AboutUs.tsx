@@ -29,7 +29,7 @@ function AboutUs() {
             trusted partner, Unique Agility LLC is committed to your
             organizational success.
           </p>
-        </div>
+        </div>  
       </div>
     </div>
   );

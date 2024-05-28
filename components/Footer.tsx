@@ -23,11 +23,13 @@ function Footer({ hideContact }: { hideContact: boolean }) {
             <li>Contact us</li>
             <li>Our Blog</li>
           </ul>
-          <div className="flex gap-2 md:gap-3 text-xs md:text-lg lg:text-xl">
+          <div className="flex gap-2 md:gap-3 text-xs md:text-lg lg:text-xl duration-300 [&>*]:cursor-pointer hover:[&>*]:text-green">
             <FaInstagram />
             <FaWhatsapp />
             <CiYoutube />
-            <FaLinkedinIn />
+            <a href="https://www.linkedin.com/company/unique-agility-llc/">
+              <FaLinkedinIn />
+            </a>
             <FaTwitter />
           </div>
         </div>

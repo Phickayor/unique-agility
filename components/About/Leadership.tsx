@@ -8,13 +8,13 @@ function Leadership() {
           <img
             src="/images/ceo-office.jpg"
             alt=""
-            className="object-cover w-56 h-56 self-center lg:w-full lg:h-72 xl:h-96 rounded-full lg:rounded-2xl"
+            className="object-cover h-56 self-center w-full lg:h-72 xl:h-96 rounded-2xl"
           />
           <div className="space-y-3 text-center hidden lg:block">
             <h1 className="font-bold text-primaryHeader text-2xl">
               Onyinye Nwegbe
             </h1>
-            <label className="font-petrona">Our Founder / CEO</label>
+            <label>Our Founder / CEO</label>
           </div>
         </div>
         <div className="flex flex-col gap-5 w-full">
