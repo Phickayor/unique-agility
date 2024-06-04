@@ -2,7 +2,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Home/Hero";
 import Partners from "@/components/Home/Partners";
-import Testimonials from "@/components/Home/Testimonials";
+//import Testimonials from "@/components/Home/Testimonials";
 import ValueProposition from "@/components/Home/ValueProposition";
 export default function Home() {
   return (
@@ -12,7 +12,6 @@ export default function Home() {
         <Hero />
         <ValueProposition />
         <Partners />
-        <Testimonials />
       </div>
       <Footer hideContact={false} />
     </div>
