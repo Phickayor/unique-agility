@@ -35,13 +35,9 @@ function Footer({ hideContact }: { hideContact: boolean }) {
             </Link>
           </ul>
           <div className="flex gap-2 md:gap-3 text-xs md:text-lg lg:text-xl duration-300 [&>*]:cursor-pointer hover:[&>*]:text-green">
-            <FaInstagram />
-            <FaWhatsapp />
-            <CiYoutube />
             <a href="https://www.linkedin.com/company/unique-agility-llc/">
               <FaLinkedinIn />
             </a>
-            <FaTwitter />
           </div>
         </div>
         <div className="hidden md:block text-center self-center lg:col-span-2">
@@ -59,19 +55,18 @@ function Footer({ hideContact }: { hideContact: boolean }) {
           <ul className="py-5 space-y-3 font-asap text-xs md:text-lg lg:text-xl">
             <li className="flex gap-2 md:gap-5">
               <FaPhone className="self-center" />
-              <span className="text-[#A7ABB6] self-center">(406) 555-0120</span>
+              <span className="text-[#A7ABB6] self-center">(443)-863-0219</span>
             </li>
             <li className="flex gap-2 md:gap-5">
               <FaEnvelope className="self-center" />
               <span className="text-[#A7ABB6] self-center">
-                unique@gmail.com
+                info@uniqueagility.com
               </span>
             </li>
             <li className="flex gap-2 md:gap-5">
               <FaLocationDot className="self-center" />
               <span className="text-[#A7ABB6] self-center">
-                2972 Westheimer
-                <br /> Rd. Santa Ana, Illinois 85486
+                3724 Putnam road RALEIGH, NC, 27610
               </span>
             </li>
           </ul>
