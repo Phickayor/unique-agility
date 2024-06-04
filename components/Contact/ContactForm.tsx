@@ -13,12 +13,11 @@ function ContactForm() {
       <div className="grid md:grid-cols-2 mx-auto py-4 lg:w-8/12 gap-5 [&>*]:border-2 [&>*]:rounded-lg md:[&>*]:text-lg [&>*]:p-3 focus:[&>*]:outline-green">
         <input type="text" placeholder="Your Name" />
         <input type="text" name="subject" placeholder="Subject" />
-        <input
-          type="text"
+        <textarea
           name="body"
           placeholder="Your message"
-          className="md:col-span-2 h-32"
-        />
+          className="md:col-span-2 h-32 self-start"
+        ></textarea>
       </div>
 
       <button type="submit" className="bg-green font-semibold text-white px-8 py-3 rounded-2xl">
