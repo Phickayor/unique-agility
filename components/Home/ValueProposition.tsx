@@ -55,7 +55,7 @@ function ValueProposition() {
           className="mx-auto w-full lg:grid grid-cols-3 lg:gap-y-0 space-y-4 lg:gap-8 relative p-5 md:p-10 "
         >
           <h1 className="text-white col-span-3 lg:col-span-1 text-center text-[20px] sm:text-3xl lg:text-4xl lg:leading-snug font-satoshi-semibold self-center ">
-            What differentiates us ?
+            What differentiates us?
           </h1>
           <ul className="text-white col-span-2 grid grid-cols-2 text-xs gap-4 w-full md:text-lg list-disc md:gap-6 px-2 lg:px-0">
             <li>Value Added Services</li>

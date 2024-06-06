@@ -37,11 +37,11 @@ function MissionAndVision() {
         </div>
         <div className="relative flex -space-x-5 sm:-space-x-10 lg:-space-x-20 justify-center w-full">
           <img
-            src="/images/mission-1.jpeg"
+            src="/images/vision-1.png"
             className="z-20 top-0 rounded-full w-16 sm:w-32 lg:w-52 h-16 sm:h-32 lg:h-52"
           />
           <img
-            src="/images/mission-2.jpeg"
+            src="/images/vision-2.png"
             className="rounded-full w-16 sm:w-32 lg:w-52 h-16 sm:h-32 lg:h-52"
           />
         </div>

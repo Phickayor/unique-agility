@@ -5,7 +5,7 @@ function Partners() {
     <div className="py-10 lg:py-20 space-y-5">
       <div>
         <label className="text-center block text-[#A7ABB6]">
-          Trusted Partner
+          Trusted Partners
         </label>
         <div className="flex flex-wrap justify-center gap-5 mx-auto w-fit py-3 [&>*]:object-cover [&>*]:w-1/4 lg:[&>*]:w-fit">
           <img src="/images/partner-1.png" />
