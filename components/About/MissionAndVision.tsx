@@ -9,7 +9,7 @@ function MissionAndVision() {
             Our Mission
           </h2>
           <p className="font-satoshi-light sm:text-lg lg:text-2xl text-[#516371]">
-            Our mission if to empower organizations to thrive by delivering
+            Our mission is to empower organizations to thrive by delivering
             tailored, agile, and technology-driven business solutions that
             exceed expectations
           </p>
@@ -31,7 +31,7 @@ function MissionAndVision() {
             Our Vision
           </h2>
           <p className="font-satoshi-light sm:text-lg lg:text-2xl text-[#516371]">
-            Our vision a leading provider of innovative and adaptive business
+            Our vision is to be a leading provider of innovative and adaptive business
             solutions globally, driving operational excellence for our clients.
           </p>
         </div>

@@ -62,7 +62,7 @@ function ValueProposition() {
             <li>100% Client Satisfaction</li>
             <li>Uncompromising Integrity</li>
             <li>Customer Support Commitment</li>
-            <li>Accountabilty in All Endeavors</li>
+            <li>Accountability in All Endeavors</li>
             <li>Government procurement Expertise</li>
             <li>Cost-Effective and Customized Solutions</li>
           </ul>
