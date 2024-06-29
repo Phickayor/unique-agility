@@ -31,8 +31,7 @@ function MissionAndVision() {
             Our Vision
           </h2>
           <p className="font-satoshi-light sm:text-lg lg:text-2xl text-[#516371]">
-            Our vision is to be a leading provider of innovative and adaptive business
-            solutions globally, driving operational excellence for our clients.
+            Our vision is to be a global leader in delivering innovative and adaptive business solutions, consistently driving operational excellence for our clients.
           </p>
         </div>
         <div className="relative flex -space-x-5 sm:-space-x-10 lg:-space-x-20 justify-center w-full">
